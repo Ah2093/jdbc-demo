@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class StartUp implements CommandLineRunner {
 
-
+    //i used this class to only push some data to database to work with it
     @Autowired
     @Qualifier("employeeJDBCRepo")
     private EmployeeRepo employeeRepo ;
